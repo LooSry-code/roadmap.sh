@@ -1,0 +1,26 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "description": "Beli bahan Makanan",
+      "status": "in-progress",
+      "createdAt": "2025-05-09T04:00:03.766Z",
+      "updatedAt": "2025-05-09T04:13:03.873Z"
+    },
+    {
+      "id": 2,
+      "description": "Beli",
+      "status": "todo",
+      "createdAt": "2025-05-09T04:00:17.698Z",
+      "updatedAt": "2025-05-09T04:00:17.702Z"
+    },
+    {
+      "id": 3,
+      "description": "Mulai proyek CLI",
+      "status": "done",
+      "createdAt": "2025-05-09T04:12:30.819Z",
+      "updatedAt": "2025-05-09T04:14:10.032Z"
+    }
+  ],
+  "nextId": 5
+}

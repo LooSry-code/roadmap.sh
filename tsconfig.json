@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Target versi JavaScript (modern)
+    "module": "CommonJS", // Sistem modul yang digunakan Node.js
+    "outDir": "./dist", // Direktori output untuk file JavaScript yang dikompilasi
+    "strict": true, // Mengaktifkan semua opsi pemeriksaan tipe yang ketat (sangat direkomendasikan)
+    "esModuleInterop": true, // Memungkinkan impor modul CommonJS seperti modul ES6
+    "skipLibCheck": true, // Melewati pemeriksaan tipe file deklarasi library
+    "forceConsistentCasingInFileNames": true // Memastikan konsistensi penggunaan huruf besar/kecil pada nama file
+  },
+  "include": [
+    "src/**/*.ts" // Sertakan semua file .ts di dalam direktori src
+  ]
+}
